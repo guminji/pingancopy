@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@hdb/logger@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+        "scope": "@hdb",
+        "escapedName": "@hdb%2flogger",
+        "name": "@hdb/logger",
+        "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+        "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+        "type": "git"
+      },
+      "/Users/guminji/works/hdf-web-footballbet"
+    ]
+  ],
+  "_from": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+  "_id": "@hdb/logger@1.0.0",
+  "_inCache": true,
+  "_location": "/@hdb/logger",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@hdb/logger@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+    "scope": "@hdb",
+    "escapedName": "@hdb%2flogger",
+    "name": "@hdb/logger",
+    "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+    "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "/",
+    "/@hdb/core"
+  ],
+  "_resolved": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#fa5e618ba4705062785935a6be88656eb5b6698f",
+  "_shasum": "dbab02d49999b890db7e2785824cf90a5f15f63c",
+  "_shrinkwrap": null,
+  "_spec": "@hdb/logger@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+  "_where": "/Users/guminji/works/hdf-web-footballbet",
+  "author": {
+    "name": "jiangshan@evergrande.com"
+  },
+  "dependencies": {
+    "@hdb/config": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "@hdb/utils": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+    "express-winston": "^1.3.0",
+    "morgan": "^1.7.0",
+    "winston": "^2.2.0",
+    "winston-daily-rotate-file": "^1.0.1"
+  },
+  "description": "hdb web logger project",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "gitHead": "fa5e618ba4705062785935a6be88656eb5b6698f",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@hdb/logger",
+  "optionalDependencies": {},
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

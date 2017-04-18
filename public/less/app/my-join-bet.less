@@ -1,0 +1,57 @@
+@import "../variables";
+@import (reference) "../mixins";
+
+.my-join-bet {
+  @default-font: PingFangSC-Regular;
+  @red: @dark-red;
+  .list_container {
+    background-color: rgb(240, 240, 244);
+    width: 100%;
+    height: inherit;
+    margin-top: 50px;
+    .item_container {
+      background-color: #FFFFFF;
+      height: 170px;
+      padding-bottom: 10px;
+      .common {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #666666;
+        position: relative;
+        top: 5px;
+        .red {
+          color: @red;
+          margin-left: 2px;
+          margin-right: 2px;
+        }
+      }
+      .left {
+        margin-left: 14px;
+        float:left;
+        overflow:hidden;
+      }
+      .right {
+        margin-right: 14px;
+        overflow: hidden;
+        text-align: right;
+        display: block;
+      }
+      .top {
+        font-size: 15px;
+        color: #000000;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+    .top_item {
+      height: 40px;
+      border-bottom: 1px solid #eeeeee;
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+    .other {
+      margin-top: 10px;
+    }
+  }
+}

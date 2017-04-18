@@ -1,0 +1,23 @@
+{
+  "NODE_PORT": 3000,
+  "NODE_ENV": "prod",
+  "API_ENDPOINT": "120.26.192.100",
+  "NODE_PROXY": false,
+  "PROXY_PATH": "/hdn",
+  "PROXY_PROTOCOL": "http:",
+  "STATIC_ENDPOINT": "",
+  "ADMIN_NODE_PORT": 3001,
+  "API_CORS": false,
+  "STATIC_PREFIX": "",
+  "wechat": {
+    "enable": false,
+    "wechatRedirectHost": "http://192.168.2.1",
+    "wechatToken": "Nptj8Jxda3O1hd2S4p3sNGq1Xnwl0HSD",
+    "appId": "wxa53ec3abfce9ca6e",
+    "appSecret": "3fd2f85bd604bca5d9841414b477d01b",
+    "ticketUrl": "https://api.weixin.qq.com/cgi-bin/ticket/getticket",
+    "accessTokenUrl": "https://api.weixin.qq.com/cgi-bin/token",
+    "oAuthUrl": "https://open.weixin.qq.com/connect/oauth2/authorize",
+    "apiUrl": "https://api.weixin.qq.com"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@hdb/core@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+        "scope": "@hdb",
+        "escapedName": "@hdb%2fcore",
+        "name": "@hdb/core",
+        "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+        "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+        "type": "git"
+      },
+      "/Users/guminji/works/hdf-web-footballbet"
+    ]
+  ],
+  "_from": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+  "_id": "@hdb/core@1.0.0",
+  "_inCache": true,
+  "_location": "/@hdb/core",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@hdb/core@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+    "scope": "@hdb",
+    "escapedName": "@hdb%2fcore",
+    "name": "@hdb/core",
+    "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+    "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#0ef6e2f5d3a004e4c7864b0ddca7827bef7b0220",
+  "_shasum": "f25c8d38a2772308f65550f03d39de865c7e9481",
+  "_shrinkwrap": null,
+  "_spec": "@hdb/core@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git#master",
+  "_where": "/Users/guminji/works/hdf-web-footballbet",
+  "author": {
+    "name": "jiangshan@evergrande.com"
+  },
+  "dependencies": {
+    "@hdb/config": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "@hdb/logger": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBLOGGER/hdb-web-logger.git#master",
+    "@hdb/utils": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+    "bluebird": "^3.3.4",
+    "lodash": "^4.10.0",
+    "request": "^2.70.0"
+  },
+  "description": "hdb web core project",
+  "devDependencies": {
+    "debug": "^2.2.0"
+  },
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "gitHead": "0ef6e2f5d3a004e4c7864b0ddca7827bef7b0220",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@hdb/core",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCORE/hdb-web-core.git"
+  },
+  "scripts": {
+    "test": "eslint -c .eslintrc.js **/*.js"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,49 @@
+@import "../variables";
+@import (reference) "../mixins";
+
+.tab_container {
+  @default-font: PingFangSC-Regular;
+  @primary-color: #f7941e;
+  background-color:#303d4a;
+  width: 100%;
+  height: 50px;
+  position:fixed;
+  top:0px;
+  z-index: 10;
+  .tab_group {
+    @radius: 4px;
+    display: inline-block;
+    height: 28px;
+    .position-being-center(50%, 11px, relative, -50%, 0);
+    .common {
+      font-family: @default-font;
+      position: relative;
+      float: left;
+      font-size: 14px;
+      width: 80px;
+      height: 100%;
+      line-height: 28px;
+      text-align: center;
+      border: 1px solid #f7941e;
+      border-right: 0px;
+      color: @primary-color;
+    }
+    @media (max-width: @iphone-old) {
+      .common {
+        width: 70px;
+        font-size: 12px;
+      }
+    }
+    .selected {
+      background-color: @primary-color;
+      color: white;
+    }
+    .left {
+      border-radius: @radius 0px 0px @radius;
+    }
+    .right {
+      border-right: 1px solid #f7941e;
+      border-radius: 0px @radius @radius 0px;
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@hdb/config@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+        "scope": "@hdb",
+        "escapedName": "@hdb%2fconfig",
+        "name": "@hdb/config",
+        "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+        "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+        "type": "git"
+      },
+      "/Users/guminji/works/hdf-web-footballbet"
+    ]
+  ],
+  "_from": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+  "_id": "@hdb/config@1.0.0",
+  "_inCache": true,
+  "_location": "/@hdb/config",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@hdb/config@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "scope": "@hdb",
+    "escapedName": "@hdb%2fconfig",
+    "name": "@hdb/config",
+    "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "/",
+    "/@hdb/core",
+    "/@hdb/logger",
+    "/@hdb/utils"
+  ],
+  "_resolved": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#e33130dee582bbf271d8154626555cb4f7fa8439",
+  "_shasum": "682878f3d2b94daf730efd1527d8866ffa4b8296",
+  "_shrinkwrap": null,
+  "_spec": "@hdb/config@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+  "_where": "/Users/guminji/works/hdf-web-footballbet",
+  "author": {
+    "name": "jiangshan@evergrande.com"
+  },
+  "dependencies": {},
+  "description": "hdb web config project",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "gitHead": "e33130dee582bbf271d8154626555cb4f7fa8439",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@hdb/config",
+  "optionalDependencies": {},
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

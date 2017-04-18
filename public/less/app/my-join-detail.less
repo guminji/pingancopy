@@ -1,0 +1,75 @@
+@import "../variables";
+@import (reference) "../mixins";
+
+.my-join-detail {
+
+  @default-font: PingFangSC-Semibold;
+  @item-font: PingFangSC-Regular;
+  @red: @dark-red;
+
+  .title_result {
+    font-family: @default-font;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.13);
+    position: relative;
+    text-align: center;
+    top: -30px;
+    .red {
+      color: @red;
+      margin-left: 3px;
+      margin-right: 3px;
+      font-size: 22px;
+    }
+
+  }
+  .title_1 {
+    font-family: @item-font;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    text-align: left;
+    top: -10px;
+    left: 15px;
+  }
+
+  .item {
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 30px;
+
+    &:nth-child(1){
+      background: #FFFFFF;
+      .item-left {
+        color:#000000;
+      }
+
+      .item-right {
+        color:#000000;
+      }
+    }
+    &:nth-child(even){
+      background: #FFFFFF;
+    }
+    &:nth-child(odd){
+      background: #f8f8f8;
+    }
+
+    .item-left {
+      font-family:@item-font;
+      font-size:14px;
+      color:#666666;
+      float:left;
+    }
+
+    .item-right {
+      font-family:@item-font;
+      font-size:14px;
+      color:#666666;
+      float:right;
+    }
+
+  }
+}

@@ -1,0 +1,70 @@
+/**
+ * Created by jason on 4/15/16.
+ */
+
+@import (reference) "variables";
+
+.bg-img(@path) {
+  background-image: url("@{bg-url}@{path}");
+}
+.bg-all(@path, @others) {
+  background: url("@{bg-url}@{path}") @others;
+}
+.bg-cover(@path) {
+  .bg-all(@path, center center no-repeat);
+  background-size: cover;
+}
+.bg-contain(@path) {
+  .bg-all(@path, no-repeat);
+  background-size: contain;
+}
+.border-img(@path, @others) {
+  -webkit-border-image: url("@{bg-url}@{path}") @others;
+  -o-border-image: url("@{bg-url}@{path}") @others;
+  border-image: url("@{bg-url}@{path}") @others;
+}
+.position-being-center(@left:50%,@top:50%,@position:absolute,@trans-x:-50%,@trans-y:-50%){
+  position:@position;
+  left:@left;
+  top:@top;
+  -webkit-transform: translate(@trans-x,@trans-y);
+  -moz-transform: translate(@trans-x,@trans-y);
+  -ms-transform: translate(@trans-x,@trans-y);
+  -o-transform: translate(@trans-x,@trans-y);
+  transform: translate(@trans-x,@trans-y);
+}
+.border-radius(@raidus:4px){
+  -webkit-border-radius: @raidus;
+  -moz-border-radius: @raidus;
+  border-radius: @raidus;
+}
+.keyframe(){
+  .buy-modal-animation {
+    0% {
+      bottom: -150px;
+    }
+
+    100% {
+      bottom: 0;
+    }
+  }
+  @-webkit-keyframes buyModal {
+    .buy-modal-animation;
+  }
+
+  @-moz-keyframes buyModal {
+    .buy-modal-animation;
+
+  }
+
+  @-o-keyframes buyModal {
+    .buy-modal-animation;
+
+  }
+
+  @keyframes buyModal {
+    .buy-modal-animation;
+
+  }
+
+};

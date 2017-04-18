@@ -1,0 +1,31 @@
+/**
+ * Created by jason on 4/14/16.
+ */
+.football-header {
+  background: #222C39;
+  height: 50px;
+  position: relative;
+  .football-goback {
+    float: left;
+  }
+  .football-page-name {
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+    .position-being-center(50%, 0px, absolute, -50%, 0);
+    //.position-being-center();
+  }
+}
+
+@import (reference) "variables";
+@import (reference) "mixins";
+
+@import "base";
+
+@import "directive/tab-title";
+@import "app/index";
+@import "app/my-join";
+@import "app/my-join-detail";
+@import "app/my-join-bet";
+@import "interaction";
+@import 'singleInteraction';

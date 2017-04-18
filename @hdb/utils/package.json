@@ -1,0 +1,69 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@hdb/utils@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+        "scope": "@hdb",
+        "escapedName": "@hdb%2futils",
+        "name": "@hdb/utils",
+        "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+        "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+        "type": "git"
+      },
+      "/Users/guminji/works/hdf-web-footballbet"
+    ]
+  ],
+  "_from": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+  "_id": "@hdb/utils@1.0.0",
+  "_inCache": true,
+  "_location": "/@hdb/utils",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@hdb/utils@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+    "scope": "@hdb",
+    "escapedName": "@hdb%2futils",
+    "name": "@hdb/utils",
+    "rawSpec": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+    "spec": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "/",
+    "/@hdb/core",
+    "/@hdb/logger"
+  ],
+  "_resolved": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#6d24ee93141a3135ada3a428d4b888f050baaf81",
+  "_shasum": "61d349511620b17e60f3a18f03b60cccc2d73f62",
+  "_shrinkwrap": null,
+  "_spec": "@hdb/utils@git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git#master",
+  "_where": "/Users/guminji/works/hdf-web-footballbet",
+  "author": {
+    "name": "jiangshan@evergrande.com"
+  },
+  "dependencies": {
+    "@hdb/config": "git+ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBCONFIG/hdb-web-config.git#master",
+    "dateformat": "^1.0.12",
+    "lodash": "^4.9.0"
+  },
+  "description": "hdb web utils project",
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 4.2.0"
+  },
+  "gitHead": "6d24ee93141a3135ada3a428d4b888f050baaf81",
+  "license": "UNLICENSED",
+  "main": "index.js",
+  "name": "@hdb/utils",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "### hdb web logger",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "ssh://vcs-user@oa.hengjs.com:23/diffusion/HDBWEBUTILS/hdb-web-utils.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,326 @@
+/**
+ * Created by gsh on 5/13/16.
+ */
+.interaction {
+  background:#EFEFF4;
+  //position:relative;
+  .bet-match-box:last-child{
+    border-bottom:none;
+    .match-details{
+      border-bottom:none!important;
+    }
+  }
+  .mydetails{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    width:58px;
+    img{
+      width:100%;
+    }
+  }
+  .lazy-load{
+    text-align:center;
+  }
+  .text-left{
+    text-align:left;
+    padding-left:10px;
+  }
+  .text-right{
+    text-align:right;
+    padding-right:10px;
+  }
+  #scroll-more-top{
+    width:100%;
+    height:30px;
+    //position:absolute;
+    top:0;
+    z-index: -10;
+    p{
+      .position-being-center();
+    }
+  }
+  .nav{
+    background:#222c39;
+    height:49px;
+    font-size:14px;
+    .nav-main-box{
+      margin:9px auto 0;
+      width:70%;
+      border:1px solid #f7941e;
+      border-radius:4px;
+      height:28px;
+      .one-match-interaction{
+        width:50%;
+        float:left;
+        height:100%;
+        text-align:center;
+        color:#f7941e;
+        span{
+          line-height:26px;
+        }
+        &.click{
+          background:#f7941e;
+          color:#fff;
+        }
+      }
+      .two-one{
+        .one-match-interaction;
+      }
+    }
+  }
+
+  .interaction-content{
+    position: absolute;
+    width: 100%;
+    .match-box{
+      .date{
+        height:30px;
+        width:100%;
+        text-align:center;
+        line-height:30px;
+        background:#e9e9e9;
+      }
+      .bet-match-box:hover{
+        background: #F1F1F1;
+      }
+      .bet-match-box{
+        background:#f8f8f8;
+        .match-details{
+          border-bottom:1px solid #efeff4;
+          padding:14px 0 22px 0;
+          margin:0px;
+          .score{
+            padding-top:5px;
+            text-align:center;
+            strong{
+              font-size: 24px;
+              display: block;
+            }
+            span{
+              font-size:24px;
+              display: block;
+            }
+          }
+          .col-xs-5{
+            text-align:center;
+
+            .dash-border{
+              border-right:1px dashed #eee;
+              border-left:1px dashed #eee;
+            }
+            .logo-box{
+              width:40px;
+              height:40px;
+              float:right;
+              overflow:hidden;
+              img{
+                width:40px;
+                height:40px;
+                float:right;
+              }
+            }
+            span{
+              display:block;
+              color:#666666;
+              padding-bottom:4px;
+              &.result{
+                font-size:14px;
+              }
+              &.odds{
+                font-size:12px;
+              }
+            }
+            span{
+              display: block;
+              font-size: 16px;
+              overflow: hidden;
+              line-height: 40px;
+              min-height: 34px;
+              color:#000000;
+            }
+            strong{
+              display: block;
+              font-size: 16px;
+              overflow: hidden;
+              line-height: 40px;
+              min-height: 34px;
+
+            }
+            &.score{
+              padding-top:5px;
+              span{
+                font-size: 24px;
+                margin-bottom: 20px;
+                display: block;
+                color:#000000;
+              }
+              strong{
+                font-size: 24px;
+                margin-bottom: 20px;
+                display: block;
+              }
+              span{
+                font-size: 24px;
+                margin-bottom: 20px;
+                display: block;
+                color:#000000;
+              }
+            }
+          }
+        }
+      }
+      h5{
+
+        overflow:hidden;
+        font-size:13px;
+        margin:0;
+        padding:10px 0 9px;
+        .match-name{
+          color:#666666;
+          padding:4px 0px;
+        }
+        .match-status{
+          font-size:13px;
+          &.end{
+            font-size:11px;
+            color:#999999;
+            border-radius:20px;
+            border:solid 1px #d4d4d4;
+            padding:3px 6px;
+          }
+          &.ready{
+            font-size:11px;
+            color:#55A3FF;
+            border-radius:20px;
+            border:solid 1px #55A3FF;
+            padding:3px 6px;
+          }
+          &.start{
+            font-size:11px;
+            color:#999999;
+            border-radius:20px;
+            border:solid 1px #d4d4d4;
+            padding:3px 6px;
+          }
+        }
+      }
+    }
+
+  }
+  //二串一开始
+  .isErChuanYi{
+    padding-bottom:46px;
+    .col-xs-4{
+      //padding:4px;
+      .bet-button{
+        width:100%;
+        height:50px;
+        padding-top:6px;
+        &.bet-button-click{
+          background:#4A90E2;
+          span{
+            color:#fff !important;
+          }
+        }
+        .border-radius();
+        background:#F3F3F3;
+        span{
+          padding:0 !important;
+          display:block;
+          color:#333;
+          &.result{
+            font-size:14px;
+          }
+          &.odds{
+            font-size:12px;
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    position:fixed;
+    bottom:0;
+    background:#f8f8f8;
+    box-shadow:0px -2px 2px 0px rgba(0,0,0,0.16);
+    padding-top:10px;
+    width:100%;
+    height:100px;
+    text-align:center;
+    span{
+      font-size:12px;
+      color:#666666;
+      margin-bottom:8px;
+    }
+    .row{
+      margin-top:6px;
+    }
+    b{
+      color:#D73145;
+    }
+    .interaction-btn{
+      border-radius:4px;
+      width:100%;
+      height:42px;
+
+      &.cancel{
+        border:1px solid #f7941e;
+        font-size:15px;
+        line-height:18px;
+        text-align:left;
+        position:relative;
+        &:active{
+          border:1px solid #d38221;
+          span{
+            color:#d38221;
+          }
+        }
+        span{
+          font-size:15px;
+          color:#f7941e;
+          line-height:18px;
+          text-align:left;
+          .position-being-center();
+        }
+      }
+      &.submit{
+        background:#f7941e;
+        height:44px;
+        position:relative;
+
+        &:active {
+          background:#d38221;
+          span{
+            color:#ffd39f;
+          }
+        }
+        span{
+          font-size:20px;
+          line-height:20px;
+          text-align:center;
+          color:#ffffff;
+          .position-being-center();
+        }
+      }
+    }
+    .col-xs-4 {
+      padding-right:4px;
+    }
+    .col-xs-8{
+      padding-left:4px;
+    }
+  }
+  .padding-4-right{
+    padding-right:4px;
+    padding-left:0px;
+  }
+  .padding-4-left{
+    padding-left:4px;
+    padding-right:0px;
+  }
+  .padding-4{
+    padding:0 4px;
+  }
+}
+@import (reference) "mixins";
